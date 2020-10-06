@@ -1,61 +1,110 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+<div align="center">
+    <img src="https://i.loli.net/2020/10/06/rNvE5BdZ4eJjKQP.png"/>
+    <h2>Lara Watcher</h2>
+</div>
 
 <p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
+    <img src="https://img.shields.io/badge/Latest Release-1.0.0-orange" />
+    <img src="https://img.shields.io/badge/PHP-7.3+-green" />
+    <img src="https://img.shields.io/badge/MySQL-5.6+-blueviolet" />
+    <img src="https://img.shields.io/badge/License-MIT-blue" />
 </p>
 
-## About Laravel
+## 关于Lara Watcher
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Lara Watcher是一个轻量的服务（器）状态维护平台。灵感源于模仿 Apple Services 来实时展示相关服务的运行情况。得益于 [Laravel](https://laravel.com/) 框架以及 [Dcat Admin](https://dcatadmin.com) 开发平台，使其具备了优雅、简洁的优秀体验。
+Lara Watcher是完全免费且开源的，任何人都可以无限制的修改代码以及部署服务，这对于很多想要对ICT资产做信息化管理的中小型企业来说，是一个很好的选择：低廉的成本换回的是高效的管理方案，同时又有健康的生态提供支持。
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+系统拥有以下模块：
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- 服务器定义
 
-## Learning Laravel
+    - 定义属于你组织的服务器清单。
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- 服务定义
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+    - 在你组织中所使用的所有服务，都可以列举在此，并且和服务器息息相关。
 
-## Laravel Sponsors
+- 异常报告
+    
+    - 可以对服务器、服务做异常报告。
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+- 看板
 
-### Premium Partners
+    - 简洁的服务状态看板。
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[OP.GG](https://op.gg)**
+- 多国语言
 
-## Contributing
+    - 目前暂时最优支持中文简体，后续会发布英文语言，同时会支持语言切换。
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+- 私有化部署
 
-## Code of Conduct
+    - 是的，只需要一个 `LNMP` 环境，就可以无限制的私有化部署。
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## 最新版本
 
-## Security Vulnerabilities
+[1.0.0](https://gitee.com/famio/LaraWatcher/raw/master/releases/LaraWatcher-1.0.0.zip)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## 环境要求
 
-## License
+`PHP 7.3 +`
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+`Mysql 5.6 +`
+
+源码开发依赖于`composer`包管理器。
+
+## 部署
+
+### 生产环境部署
+
+1：为你的计算机安装 `PHP` 环境，参考：[PHP官方](https://www.php.net/downloads) 。
+
+2：为你的计算机安装 `MySQL` 或者 `mariaDB` 。
+
+3：下载 [发行版](https://github.com/Celaraze/LaraWatcher/releases) ，解压得到程序目录，放置到你想要放置的地方。
+
+4：在项目根目录中，执行 `php artisan watcher:install` 根据提示进行安装。
+
+5：你可能使用的web服务器为 `nginx` 以及 `apache`，无论怎样，应用的起始路径在 `/public` 目录，请确保指向正确。
+
+6：修改web服务器的伪静态规则为：`try_files $uri $uri/ /index.php?$args;`。
+
+### 开发环境部署
+
+欢迎对此感兴趣的开发者进行协同开发，使 Lara Watcher 更趋于完美。开发过程相对于简单，没有过多的环境配置和改动。
+
+1：为你的计算机安装 `PHP` 环境，参考：[PHP官方](https://www.php.net/downloads) 。
+
+2：安装 `composer` 包管理工具，参考：[composer官方](https://getcomposer.org/download/) 。
+
+3：进入项目根目录，执行 `composer install`以安装相关依赖。
+
+4：在项目根目录中，复制 `.env.example` 为 `.env`。
+
+5：编辑 `.env` 文件中的数据库连接配置相关字段。
+
+6：仍然在项目根目录中，执行 `php artisan migrate` 进行数据库迁移。
+
+7：参考 [Laravel](https://laravel.com/) 以及 [Dcat Admin](https://dcatadmin.com) 相关文档进行开发。
+
+## 截图
+
+![](https://i.loli.net/2020/10/06/F127aoZDyfqL9lu.png)
+
+![](https://i.loli.net/2020/10/06/rIz419blSFQvGWc.png)
+
+![](https://i.loli.net/2020/10/06/MS3L6WgIRwtnB7O.png)
+
+![](https://i.loli.net/2020/10/06/1pRkhiOHtPxmM62.png)
+
+## 参与贡献
+
+1：`Fork` 本仓库。
+
+2：修改代码。
+
+3：新建 `Pull Request`。
+
+## 开源协议
+
+Lara Watcher 遵循 MIT 开源协议。

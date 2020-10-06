@@ -10,20 +10,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76bd5c34-e79e-4aab-aa80-75f49093e656" name="默认的" comment="🖥 后台框架完成">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/DashboardController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/dashboard.blade.php" afterDir="false" />
+    <list default="true" id="76bd5c34-e79e-4aab-aa80-75f49093e656" name="默认的" comment="🔧 修复看板问题">
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Console/Commands/Install.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Libraries/InfoHelper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/initData.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Admin/Actions/Grid/FixServiceIssueAction.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/Actions/Grid/FixServiceIssueAction.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Admin/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Admin/Controllers/ServiceController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/Controllers/ServiceController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Admin/Forms/ReportServerIssueForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/Forms/ReportServerIssueForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Admin/Forms/ReportServiceIssueForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/Forms/ReportServiceIssueForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Admin/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Service.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Service.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/zh-CN/service.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/zh-CN/service.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,9 +162,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Chemex" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Repositories\LaraWatcher" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -188,7 +186,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601979556790</updated>
       <workItem from="1601979557831" duration="374000" />
-      <workItem from="1601979936988" duration="7030000" />
+      <workItem from="1601979936988" duration="8431000" />
     </task>
     <task id="LOCAL-00001" summary="🌈 初始化框架">
       <created>1601979995047</created>
@@ -211,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601984807862</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="🔧 修复看板问题">
+      <created>1601988019800</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601988019800</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,28 +239,33 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value=" 初始化框架" />
     <MESSAGE value=" 后台框架完成" />
-    <option name="LAST_COMMIT_MESSAGE" value=" 后台框架完成" />
+    <MESSAGE value=" 修复看板问题" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 修复看板问题" />
   </component>
   <component name="WindowStateProjectService">
     <state x="760" y="398" key="#Composer" timestamp="1601979622658">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="760" y="398" key="#Composer/0.0.1920.1040@0.0.1920.1040" timestamp="1601979622658" />
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1601985173961">
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1601988416484">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601985173961" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1601986129847">
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601988416484" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1601988345062">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601986129847" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601988345062" />
+    <state x="734" y="240" key="NewPhpClassDialog" timestamp="1601988414216">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="734" y="240" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601988414216" />
     <state x="785" y="443" key="NewPhpFileDialog" timestamp="1601984827120">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="785" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601984827120" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601980047439">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601988021616">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601980047439" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601988021616" />
   </component>
 </project>
