@@ -2,6 +2,7 @@
 return [
     'labels' => [
         'Service' => '服务',
+        'Server' => '服务器'
     ],
     'fields' => [
         'server' => [

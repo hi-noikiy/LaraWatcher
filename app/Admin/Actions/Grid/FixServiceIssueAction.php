@@ -31,7 +31,7 @@ class FixServiceIssueAction extends RowAction
                 ->error('没有找到此问题！');
         } else {
             $service_track->status = 2;
-            $service_track->delete();
+            $service_track->save();
             return $this->response()
                 ->success('已报告修复！')
                 ->refresh();

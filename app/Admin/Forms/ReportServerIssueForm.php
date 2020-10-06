@@ -26,7 +26,7 @@ class ReportServerIssueForm extends Form implements LazyRenderable
         $description = $input['description'] ?? null;
         $recovery = $input['recovery'] ?? null;
         if (!$description || !$recovery) {
-            return $this->error('参数错误');
+            return $this->error('参数错误！');
         }
         $services = Service::where('server_id', $server_id)->get();
         foreach ($services as $service) {
@@ -35,6 +35,10 @@ class ReportServerIssueForm extends Form implements LazyRenderable
                 $service_track = new ServiceTrack();
                 $service_track->service_id = $service->id;
                 $service_track->status = 1;
+            } else {
+                if ($service_track->status == 2) {
+                    $service_track->delete();
+                }
             }
             $service_track->description = $description;
             $service_track->recovery = $recovery;

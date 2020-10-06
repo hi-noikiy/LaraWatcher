@@ -10,107 +10,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76bd5c34-e79e-4aab-aa80-75f49093e656" name="默认的" comment="🌈 初始化框架">
-      <change afterPath="$PROJECT_DIR$/app/Admin/Actions/Grid/FixServiceIssueAction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Admin/Actions/Grid/ReportServerIssueAction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Admin/Actions/Grid/ReportServiceIssueAction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Admin/Controllers/ServerController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Admin/Controllers/ServiceController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Admin/Controllers/ServiceTrackController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Admin/Forms/ReportServerIssueForm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Admin/Forms/ReportServiceIssueForm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Admin/Repositories/Server.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Admin/Repositories/Service.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Admin/Repositories/ServiceTrack.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Server.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Service.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/ServiceTrack.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_10_06_183242_create_servers_tables.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_10_06_183704_create_services_tables.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_10_06_190105_create_service_tracks_tables.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/zh-CN/server.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/zh-CN/service-track.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/zh-CN/service.php" afterDir="false" />
+    <list default="true" id="76bd5c34-e79e-4aab-aa80-75f49093e656" name="默认的" comment="🖥 后台框架完成">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/DashboardController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/dashboard.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Admin/Metrics/Examples/NewDevices.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/Metrics/Examples/NewDevices.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Admin/Metrics/Examples/NewUsers.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/Metrics/Examples/NewUsers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Admin/Metrics/Examples/ProductOrders.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/Metrics/Examples/ProductOrders.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Admin/Metrics/Examples/Sessions.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/Metrics/Examples/Sessions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Admin/Metrics/Examples/Tickets.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/Metrics/Examples/Tickets.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Admin/Metrics/Examples/TotalUsers.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/Metrics/Examples/TotalUsers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Admin/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Admin/Actions/Grid/FixServiceIssueAction.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/Actions/Grid/FixServiceIssueAction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Admin/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Admin/Controllers/ServiceController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/Controllers/ServiceController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Admin/Forms/ReportServerIssueForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/Forms/ReportServerIssueForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Admin/Forms/ReportServiceIssueForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/Forms/ReportServiceIssueForm.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Admin/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Service.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Service.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/cache.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/cache.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/session.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/extra/action.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/extra/action.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/extra/grid-extend.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/extra/grid-extend.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/extra/resource-selector.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/extra/resource-selector.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/extra/select-table.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/extra/select-table.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/extra/upload.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/extra/upload.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/js/dcat-app.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/js/dcat-app.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/css/editormd.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/css/editormd.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/css/editormd.logo.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/css/editormd.logo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/css/editormd.preview.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/css/editormd.preview.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/lib/codemirror.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/lib/codemirror.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/lib/codemirror.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/lib/codemirror.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/apl/apl.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/apl/apl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/apl/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/apl/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/css/css.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/css/css.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/css/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/css/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/css/less.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/css/less.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/css/less_test.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/css/less_test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/css/scss.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/css/scss.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/css/scss_test.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/css/scss_test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/css/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/css/test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/d/d.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/d/d.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/d/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/d/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/dtd/dtd.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/dtd/dtd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/dtd/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/dtd/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/ecl/ecl.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/ecl/ecl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/ecl/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/ecl/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/gas/gas.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/gas/gas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/gas/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/gas/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/gfm/gfm.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/gfm/gfm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/gfm/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/gfm/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/gfm/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/gfm/test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/go/go.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/go/go.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/go/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/go/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/idl/idl.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/idl/idl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/idl/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/idl/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/lua/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/lua/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/lua/lua.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/lua/lua.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/php/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/php/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/php/php.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/php/php.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/php/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/php/test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/pig/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/pig/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/pig/pig.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/pig/pig.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/q/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/q/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/q/q.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/q/q.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/r/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/r/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/r/r.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/r/r.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/rpm/changes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/rpm/changes/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/rpm/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/rpm/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/rpm/rpm.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/rpm/rpm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/vb/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/vb/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/vb/vb.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/editor-md/lib/codemirror/mode/vb/vb.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/nestable/jquery.nestable.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/nestable/jquery.nestable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/nestable/nestable.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/nestable/nestable.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/tinymce/langs/zh-CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/tinymce/langs/zh-CN.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/tinymce/plugins/emoticons/js/emojis.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendors/dcat-admin/dcat/plugins/tinymce/plugins/emoticons/js/emojis.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/zh-CN/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/zh-CN/admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/CreatesApplication.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/CreatesApplication.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/zh-CN/service.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/zh-CN/service.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -275,7 +188,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601979556790</updated>
       <workItem from="1601979557831" duration="374000" />
-      <workItem from="1601979936988" duration="4087000" />
+      <workItem from="1601979936988" duration="7030000" />
     </task>
     <task id="LOCAL-00001" summary="🌈 初始化框架">
       <created>1601979995047</created>
@@ -291,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601980037156</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="🖥 后台框架完成">
+      <created>1601984807862</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601984807862</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,21 +233,26 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value=" 初始化框架" />
-    <option name="LAST_COMMIT_MESSAGE" value=" 初始化框架" />
+    <MESSAGE value=" 后台框架完成" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 后台框架完成" />
   </component>
   <component name="WindowStateProjectService">
     <state x="760" y="398" key="#Composer" timestamp="1601979622658">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="760" y="398" key="#Composer/0.0.1920.1040@0.0.1920.1040" timestamp="1601979622658" />
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1601984628832">
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1601985173961">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601984628832" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1601983257811">
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601985173961" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1601986129847">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601983257811" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601986129847" />
+    <state x="785" y="443" key="NewPhpFileDialog" timestamp="1601984827120">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="785" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601984827120" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601980047439">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

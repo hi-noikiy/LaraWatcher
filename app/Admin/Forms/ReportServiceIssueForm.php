@@ -25,13 +25,17 @@ class ReportServiceIssueForm extends Form implements LazyRenderable
         $description = $input['description'] ?? null;
         $recovery = $input['recovery'] ?? null;
         if (!$description || !$recovery) {
-            return $this->error('参数错误');
+            return $this->error('参数错误！');
         }
         $service_track = ServiceTrack::where('service_id', $service_id)->first();
         if (empty($service_track)) {
             $service_track = new ServiceTrack();
             $service_track->service_id = $service_id;
             $service_track->status = 1;
+        } else {
+            if ($service_track->status == 2) {
+                $service_track->delete();
+            }
         }
         $service_track->description = $description;
         $service_track->recovery = $recovery;

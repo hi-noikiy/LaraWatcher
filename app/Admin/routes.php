@@ -12,6 +12,7 @@ Route::group([
     'middleware' => config('admin.route.middleware'),
 ], function (Router $router) {
     $router->get('/', 'HomeController@index');
+    $router->get('/dashboard', 'HomeController@dashboard');
     $router->resource('/servers', 'ServerController');
     $router->resource('/services', 'ServiceController');
     $router->resource('/service_tracks', 'ServiceTrackController');

@@ -63,7 +63,7 @@ class ServiceController extends AdminController
     {
         return Form::make(new Service(), function (Form $form) {
             $form->display('id');
-            $form->select('server_id')
+            $form->select('server_id', admin_trans_label('Server'))
                 ->options(Server::all()
                     ->pluck('name', 'id'))
                 ->required();
