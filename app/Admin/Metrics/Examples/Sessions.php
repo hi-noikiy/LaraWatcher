@@ -9,39 +9,6 @@ use Illuminate\Http\Request;
 class Sessions extends Bar
 {
     /**
-     * 初始化卡片内容
-     */
-    protected function init()
-    {
-        parent::init();
-
-        $color = Admin::color();
-
-        $dark35 = $color->dark35();
-
-        // 卡片内容宽度
-        $this->contentWidth(5, 7);
-        // 标题
-        $this->title('Avg Sessions');
-        // 设置下拉选项
-        $this->dropdown([
-            '7' => 'Last 7 Days',
-            '28' => 'Last 28 Days',
-            '30' => 'Last Month',
-            '365' => 'Last Year',
-        ]);
-        // 设置图表颜色
-        $this->chartColors([
-            $dark35,
-            $dark35,
-            $color->primary(),
-            $dark35,
-            $dark35,
-            $dark35
-        ]);
-    }
-
-    /**
      * 处理请求
      *
      * @param Request $request
@@ -64,20 +31,6 @@ class Sessions extends Bar
                     ],
                 ]);
         }
-    }
-
-    /**
-     * 设置图表数据.
-     *
-     * @param array $data
-     *
-     * @return $this
-     */
-    public function withChart(array $data)
-    {
-        return $this->chart([
-            'series' => $data,
-        ]);
     }
 
     /**
@@ -113,5 +66,52 @@ class Sessions extends Bar
 </div>
 HTML
         );
+    }
+
+    /**
+     * 设置图表数据.
+     *
+     * @param array $data
+     *
+     * @return $this
+     */
+    public function withChart(array $data)
+    {
+        return $this->chart([
+            'series' => $data,
+        ]);
+    }
+
+    /**
+     * 初始化卡片内容
+     */
+    protected function init()
+    {
+        parent::init();
+
+        $color = Admin::color();
+
+        $dark35 = $color->dark35();
+
+        // 卡片内容宽度
+        $this->contentWidth(5, 7);
+        // 标题
+        $this->title('Avg Sessions');
+        // 设置下拉选项
+        $this->dropdown([
+            '7' => 'Last 7 Days',
+            '28' => 'Last 28 Days',
+            '30' => 'Last Month',
+            '365' => 'Last Year',
+        ]);
+        // 设置图表颜色
+        $this->chartColors([
+            $dark35,
+            $dark35,
+            $color->primary(),
+            $dark35,
+            $dark35,
+            $dark35
+        ]);
     }
 }

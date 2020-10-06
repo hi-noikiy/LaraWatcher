@@ -10,23 +10,6 @@ class NewDevices extends Donut
     protected $labels = ['Desktop', 'Mobile'];
 
     /**
-     * 初始化卡片内容
-     */
-    protected function init()
-    {
-        parent::init();
-
-        $color = Admin::color();
-        $colors = [$color->primary(), $color->alpha('blue2', 0.5)];
-
-        $this->title('New Devices');
-        $this->subTitle('Last 30 days');
-        $this->chartLabels($this->labels);
-        // 设置图表颜色
-        $this->chartColors($colors);
-    }
-
-    /**
      * 渲染模板
      *
      * @return string
@@ -49,20 +32,6 @@ class NewDevices extends Donut
 
         // 图表数据
         $this->withChart([44.9, 28.6]);
-    }
-
-    /**
-     * 设置图表数据.
-     *
-     * @param array $data
-     *
-     * @return $this
-     */
-    public function withChart(array $data)
-    {
-        return $this->chart([
-            'series' => $data
-        ]);
     }
 
     /**
@@ -96,5 +65,36 @@ class NewDevices extends Donut
 </div>
 HTML
         );
+    }
+
+    /**
+     * 设置图表数据.
+     *
+     * @param array $data
+     *
+     * @return $this
+     */
+    public function withChart(array $data)
+    {
+        return $this->chart([
+            'series' => $data
+        ]);
+    }
+
+    /**
+     * 初始化卡片内容
+     */
+    protected function init()
+    {
+        parent::init();
+
+        $color = Admin::color();
+        $colors = [$color->primary(), $color->alpha('blue2', 0.5)];
+
+        $this->title('New Devices');
+        $this->subTitle('Last 30 days');
+        $this->chartLabels($this->labels);
+        // 设置图表颜色
+        $this->chartColors($colors);
     }
 }

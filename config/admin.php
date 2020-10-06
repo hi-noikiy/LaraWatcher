@@ -11,7 +11,7 @@ return [
     | login page.
     |
     */
-    'name' => 'Dcat Admin',
+    'name' => 'Lara Watcher',
 
     /*
     |--------------------------------------------------------------------------
@@ -22,7 +22,7 @@ return [
     | `img` tag, eg '<img src="http://logo-url" alt="Admin logo">'.
     |
     */
-    'logo' => '<img src="/vendors/dcat-admin/images/logo.png" width="35"> &nbsp;Dcat Admin',
+    'logo' => '<img src="/vendors/dcat-admin/images/logo.png" width="35"> &nbsp;Lara Watcher',
 
     /*
     |--------------------------------------------------------------------------
@@ -58,7 +58,7 @@ return [
     */
     'route' => [
 
-        'prefix' => env('ADMIN_ROUTE_PREFIX', 'admin'),
+        'prefix' => env('ADMIN_ROUTE_PREFIX', ''),
 
         'namespace' => 'App\\Admin\\Controllers',
 
@@ -85,7 +85,7 @@ return [
     | Html title for all pages.
     |
     */
-    'title' => 'Admin',
+    'title' => 'Lara Watcher',
 
     /*
     |--------------------------------------------------------------------------
@@ -125,7 +125,7 @@ return [
 
         'guards' => [
             'admin' => [
-                'driver'   => 'session',
+                'driver' => 'session',
                 'provider' => 'admin',
             ],
         ],
@@ -133,7 +133,7 @@ return [
         'providers' => [
             'admin' => [
                 'driver' => 'eloquent',
-                'model'  => Dcat\Admin\Models\Administrator::class,
+                'model' => Dcat\Admin\Models\Administrator::class,
             ],
         ],
 
@@ -201,7 +201,7 @@ return [
         'cache' => [
             // enable cache or not
             'enable' => false,
-            'store'  => 'file',
+            'store' => 'file',
         ],
 
         // Whether enable menu bind to a permission.
@@ -226,7 +226,7 @@ return [
         // Image and file upload path under the disk above.
         'directory' => [
             'image' => 'images',
-            'file'  => 'files',
+            'file' => 'files',
         ],
     ],
 
@@ -260,11 +260,11 @@ return [
         'menu_model' => Dcat\Admin\Models\Menu::class,
 
         // Pivot table for table above.
-        'operation_log_table'    => 'admin_operation_log',
-        'role_users_table'       => 'admin_role_users',
+        'operation_log_table' => 'admin_operation_log',
+        'role_users_table' => 'admin_role_users',
         'role_permissions_table' => 'admin_role_permissions',
-        'role_menu_table'        => 'admin_role_menu',
-        'permission_menu_table'  => 'admin_permission_menu',
+        'role_menu_table' => 'admin_role_menu',
+        'permission_menu_table' => 'admin_permission_menu',
     ],
 
     /*
